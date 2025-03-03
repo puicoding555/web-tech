@@ -1,0 +1,896 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": -142,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "TXfrCb42q8Na3_GZTHKf8",
+      "3HA7M8waR3pxykszT6FMR",
+      "RxgMxtZY9F1L4qhoLj1Sh",
+      "PeT80Z3p8lRpH0R79LhpI"
+    ],
+    "relationshipIds": [
+      "A0D76ZIL7Gq3utvos5bwu",
+      "H5flltdk5XHv-yrwWTibZ"
+    ],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "TXfrCb42q8Na3_GZTHKf8": {
+        "id": "TXfrCb42q8Na3_GZTHKf8",
+        "name": "",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 203,
+          "y": 100,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1740973778625,
+          "createAt": 1740973778625
+        }
+      },
+      "3HA7M8waR3pxykszT6FMR": {
+        "id": "3HA7M8waR3pxykszT6FMR",
+        "name": "Car",
+        "comment": "",
+        "columnIds": [
+          "9NyafMvF8SURWYu0KVmzf",
+          "3tTXGxrXc4Wn7AiZZVung",
+          "HeKHCvCg2sievqbwLjB4Y",
+          "BwhqCEzu8N0S5G5-EhDt0",
+          "8mivUTN4bTmrmqvydqOY2",
+          "JtK9fsXFjQKtK-_wr-c8Y"
+        ],
+        "seqColumnIds": [
+          "9NyafMvF8SURWYu0KVmzf",
+          "3tTXGxrXc4Wn7AiZZVung",
+          "HeKHCvCg2sievqbwLjB4Y",
+          "Xlq408Erl2it5Fo8MmR_v",
+          "BwhqCEzu8N0S5G5-EhDt0",
+          "4ssg2l9KDwSW_quL9Nrvp",
+          "BZGffxRirAKV56ftdW5--",
+          "8mivUTN4bTmrmqvydqOY2",
+          "JtK9fsXFjQKtK-_wr-c8Y"
+        ],
+        "ui": {
+          "x": 203,
+          "y": 103,
+          "zIndex": 3,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": "#FF0000"
+        },
+        "meta": {
+          "updateAt": 1740976762817,
+          "createAt": 1740973779594
+        }
+      },
+      "RxgMxtZY9F1L4qhoLj1Sh": {
+        "id": "RxgMxtZY9F1L4qhoLj1Sh",
+        "name": "CarBrandID",
+        "comment": "",
+        "columnIds": [
+          "KyzAsTOpv37FofXDILHob",
+          "OfRMAtvG8Ey7SDQCdwQV5"
+        ],
+        "seqColumnIds": [
+          "KyzAsTOpv37FofXDILHob",
+          "OfRMAtvG8Ey7SDQCdwQV5"
+        ],
+        "ui": {
+          "x": 201,
+          "y": 477,
+          "zIndex": 4,
+          "widthName": 62,
+          "widthComment": 60,
+          "color": "#FF00ED"
+        },
+        "meta": {
+          "updateAt": 1740976777406,
+          "createAt": 1740973780847
+        }
+      },
+      "PeT80Z3p8lRpH0R79LhpI": {
+        "id": "PeT80Z3p8lRpH0R79LhpI",
+        "name": "CarType",
+        "comment": "",
+        "columnIds": [
+          "HLYPiVI976cYNEa_DDCxY",
+          "fWLy29o6ZW8FCOsA-nMVq"
+        ],
+        "seqColumnIds": [
+          "HLYPiVI976cYNEa_DDCxY",
+          "fWLy29o6ZW8FCOsA-nMVq",
+          "O0oRwo2uOwN6XM_B658Hw",
+          "JldqTN3yHm-WXk4IM-7G9",
+          "QMvNfqNUd4kjpE0mjFcSw",
+          "xSZq4hsJuPQqh5YqNrnCf"
+        ],
+        "ui": {
+          "x": 800,
+          "y": 151,
+          "zIndex": 8,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": "#002BFF"
+        },
+        "meta": {
+          "updateAt": 1740976784834,
+          "createAt": 1740973785073
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "9NyafMvF8SURWYu0KVmzf": {
+        "id": "9NyafMvF8SURWYu0KVmzf",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "CarID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976141897,
+          "createAt": 1740975798451
+        }
+      },
+      "3tTXGxrXc4Wn7AiZZVung": {
+        "id": "3tTXGxrXc4Wn7AiZZVung",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "CarName",
+        "comment": "",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976036015,
+          "createAt": 1740975798611
+        }
+      },
+      "HeKHCvCg2sievqbwLjB4Y": {
+        "id": "HeKHCvCg2sievqbwLjB4Y",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "CarPrice",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976044362,
+          "createAt": 1740975798739
+        }
+      },
+      "Xlq408Erl2it5Fo8MmR_v": {
+        "id": "Xlq408Erl2it5Fo8MmR_v",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "CarTypeID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976149249,
+          "createAt": 1740975921055
+        }
+      },
+      "BwhqCEzu8N0S5G5-EhDt0": {
+        "id": "BwhqCEzu8N0S5G5-EhDt0",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "BrandID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976150569,
+          "createAt": 1740975921199
+        }
+      },
+      "HLYPiVI976cYNEa_DDCxY": {
+        "id": "HLYPiVI976cYNEa_DDCxY",
+        "tableId": "PeT80Z3p8lRpH0R79LhpI",
+        "name": "CarTypeID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976143241,
+          "createAt": 1740976091776
+        }
+      },
+      "fWLy29o6ZW8FCOsA-nMVq": {
+        "id": "fWLy29o6ZW8FCOsA-nMVq",
+        "tableId": "PeT80Z3p8lRpH0R79LhpI",
+        "name": "CarTypeName",
+        "comment": "",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 76,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976723949,
+          "createAt": 1740976091930
+        }
+      },
+      "O0oRwo2uOwN6XM_B658Hw": {
+        "id": "O0oRwo2uOwN6XM_B658Hw",
+        "tableId": "PeT80Z3p8lRpH0R79LhpI",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976092056,
+          "createAt": 1740976092056
+        }
+      },
+      "KyzAsTOpv37FofXDILHob": {
+        "id": "KyzAsTOpv37FofXDILHob",
+        "tableId": "RxgMxtZY9F1L4qhoLj1Sh",
+        "name": "BrandID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976200890,
+          "createAt": 1740976163746
+        }
+      },
+      "OfRMAtvG8Ey7SDQCdwQV5": {
+        "id": "OfRMAtvG8Ey7SDQCdwQV5",
+        "tableId": "RxgMxtZY9F1L4qhoLj1Sh",
+        "name": "BrandName",
+        "comment": "",
+        "dataType": "VARCHAR(255)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 65,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976195446,
+          "createAt": 1740976163881
+        }
+      },
+      "4ssg2l9KDwSW_quL9Nrvp": {
+        "id": "4ssg2l9KDwSW_quL9Nrvp",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "CarTypeID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976238636,
+          "createAt": 1740976238636
+        }
+      },
+      "BZGffxRirAKV56ftdW5--": {
+        "id": "BZGffxRirAKV56ftdW5--",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "CarTypeID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976249135,
+          "createAt": 1740976249135
+        }
+      },
+      "JldqTN3yHm-WXk4IM-7G9": {
+        "id": "JldqTN3yHm-WXk4IM-7G9",
+        "tableId": "PeT80Z3p8lRpH0R79LhpI",
+        "name": "CarID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976683471,
+          "createAt": 1740976683470
+        }
+      },
+      "QMvNfqNUd4kjpE0mjFcSw": {
+        "id": "QMvNfqNUd4kjpE0mjFcSw",
+        "tableId": "PeT80Z3p8lRpH0R79LhpI",
+        "name": "CarTypeID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976683471,
+          "createAt": 1740976683471
+        }
+      },
+      "xSZq4hsJuPQqh5YqNrnCf": {
+        "id": "xSZq4hsJuPQqh5YqNrnCf",
+        "tableId": "PeT80Z3p8lRpH0R79LhpI",
+        "name": "BrandID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976683471,
+          "createAt": 1740976683471
+        }
+      },
+      "8mivUTN4bTmrmqvydqOY2": {
+        "id": "8mivUTN4bTmrmqvydqOY2",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "CarTypeID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976742048,
+          "createAt": 1740976742047
+        }
+      },
+      "JtK9fsXFjQKtK-_wr-c8Y": {
+        "id": "JtK9fsXFjQKtK-_wr-c8Y",
+        "tableId": "3HA7M8waR3pxykszT6FMR",
+        "name": "BrandID",
+        "comment": "",
+        "dataType": "INTEGER",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1740976762817,
+          "createAt": 1740976762817
+        }
+      }
+    },
+    "relationshipEntities": {
+      "XFAnsNucmEt2Ue6eNexS2": {
+        "id": "XFAnsNucmEt2Ue6eNexS2",
+        "identification": false,
+        "relationshipType": 8,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "PeT80Z3p8lRpH0R79LhpI",
+          "columnIds": [
+            "HLYPiVI976cYNEa_DDCxY"
+          ],
+          "x": 689,
+          "y": 163,
+          "direction": 1
+        },
+        "end": {
+          "tableId": "3HA7M8waR3pxykszT6FMR",
+          "columnIds": [
+            "4ssg2l9KDwSW_quL9Nrvp"
+          ],
+          "x": 588,
+          "y": 156,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1740976238636,
+          "createAt": 1740976238636
+        }
+      },
+      "QJkY--_pZBobqO7PuZdYf": {
+        "id": "QJkY--_pZBobqO7PuZdYf",
+        "identification": false,
+        "relationshipType": 8,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "PeT80Z3p8lRpH0R79LhpI",
+          "columnIds": [
+            "HLYPiVI976cYNEa_DDCxY"
+          ],
+          "x": 689,
+          "y": 215,
+          "direction": 1
+        },
+        "end": {
+          "tableId": "3HA7M8waR3pxykszT6FMR",
+          "columnIds": [
+            "BZGffxRirAKV56ftdW5--"
+          ],
+          "x": 588,
+          "y": 268,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1740976249135,
+          "createAt": 1740976249135
+        }
+      },
+      "A17C4ZugxGflaJ5bUHt1o": {
+        "id": "A17C4ZugxGflaJ5bUHt1o",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "3HA7M8waR3pxykszT6FMR",
+          "columnIds": [
+            "9NyafMvF8SURWYu0KVmzf",
+            "Xlq408Erl2it5Fo8MmR_v",
+            "BwhqCEzu8N0S5G5-EhDt0"
+          ],
+          "x": 589,
+          "y": 191,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "PeT80Z3p8lRpH0R79LhpI",
+          "columnIds": [
+            "JldqTN3yHm-WXk4IM-7G9",
+            "QMvNfqNUd4kjpE0mjFcSw",
+            "xSZq4hsJuPQqh5YqNrnCf"
+          ],
+          "x": 787,
+          "y": 206,
+          "direction": 1
+        },
+        "meta": {
+          "updateAt": 1740976683471,
+          "createAt": 1740976683471
+        }
+      },
+      "A0D76ZIL7Gq3utvos5bwu": {
+        "id": "A0D76ZIL7Gq3utvos5bwu",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "PeT80Z3p8lRpH0R79LhpI",
+          "columnIds": [
+            "HLYPiVI976cYNEa_DDCxY"
+          ],
+          "x": 800,
+          "y": 203,
+          "direction": 1
+        },
+        "end": {
+          "tableId": "3HA7M8waR3pxykszT6FMR",
+          "columnIds": [
+            "8mivUTN4bTmrmqvydqOY2"
+          ],
+          "x": 589,
+          "y": 203,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1740976742048,
+          "createAt": 1740976742048
+        }
+      },
+      "H5flltdk5XHv-yrwWTibZ": {
+        "id": "H5flltdk5XHv-yrwWTibZ",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "RxgMxtZY9F1L4qhoLj1Sh",
+          "columnIds": [
+            "KyzAsTOpv37FofXDILHob"
+          ],
+          "x": 396.5,
+          "y": 477,
+          "direction": 4
+        },
+        "end": {
+          "tableId": "3HA7M8waR3pxykszT6FMR",
+          "columnIds": [
+            "JtK9fsXFjQKtK-_wr-c8Y"
+          ],
+          "x": 396,
+          "y": 303,
+          "direction": 8
+        },
+        "meta": {
+          "updateAt": 1740976762818,
+          "createAt": 1740976762818
+        }
+      }
+    },
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "TXfrCb42q8Na3_GZTHKf8": [
+      "tableEntities",
+      1740973778624,
+      -1,
+      {}
+    ],
+    "3HA7M8waR3pxykszT6FMR": [
+      "tableEntities",
+      1740973779593,
+      -1,
+      {
+        "name": 1740975796557,
+        "ui.color": 1740976061059
+      }
+    ],
+    "RxgMxtZY9F1L4qhoLj1Sh": [
+      "tableEntities",
+      1740973780847,
+      -1,
+      {
+        "ui.color": 1740976072385,
+        "name": 1740976161956
+      }
+    ],
+    "PeT80Z3p8lRpH0R79LhpI": [
+      "tableEntities",
+      1740973785072,
+      -1,
+      {
+        "ui.color": 1740976067550,
+        "name": 1740976087684
+      }
+    ],
+    "9NyafMvF8SURWYu0KVmzf": [
+      "tableColumnEntities",
+      1740975798450,
+      -1,
+      {
+        "name": 1740975805983,
+        "dataType": 1740976015737,
+        "options(notNull)": 1740976049744,
+        "options(primaryKey)": 1740976141897
+      }
+    ],
+    "3tTXGxrXc4Wn7AiZZVung": [
+      "tableColumnEntities",
+      1740975798610,
+      -1,
+      {
+        "name": 1740975911338,
+        "dataType": 1740976036014
+      }
+    ],
+    "HeKHCvCg2sievqbwLjB4Y": [
+      "tableColumnEntities",
+      1740975798738,
+      -1,
+      {
+        "name": 1740975919257,
+        "dataType": 1740976044361
+      }
+    ],
+    "Xlq408Erl2it5Fo8MmR_v": [
+      "tableColumnEntities",
+      1740975921054,
+      1740976750909,
+      {
+        "name": 1740975939801,
+        "dataType": 1740976045961,
+        "options(notNull)": 1740976052449,
+        "options(primaryKey)": 1740976149249
+      }
+    ],
+    "BwhqCEzu8N0S5G5-EhDt0": [
+      "tableColumnEntities",
+      1740975921199,
+      -1,
+      {
+        "name": 1740975971405,
+        "dataType": 1740976047929,
+        "options(notNull)": 1740976053233,
+        "options(primaryKey)": 1740976150569
+      }
+    ],
+    "HLYPiVI976cYNEa_DDCxY": [
+      "tableColumnEntities",
+      1740976091775,
+      -1,
+      {
+        "name": 1740976107363,
+        "dataType": 1740976128057,
+        "options(notNull)": 1740976138511,
+        "options(primaryKey)": 1740976143241
+      }
+    ],
+    "fWLy29o6ZW8FCOsA-nMVq": [
+      "tableColumnEntities",
+      1740976091929,
+      -1,
+      {
+        "name": 1740976723948,
+        "dataType": 1740976134678
+      }
+    ],
+    "O0oRwo2uOwN6XM_B658Hw": [
+      "tableColumnEntities",
+      1740976092056,
+      1740976094137,
+      {}
+    ],
+    "KyzAsTOpv37FofXDILHob": [
+      "tableColumnEntities",
+      1740976163745,
+      -1,
+      {
+        "name": 1740976175317,
+        "dataType": 1740976193241,
+        "options(notNull)": 1740976198514,
+        "options(primaryKey)": 1740976200890
+      }
+    ],
+    "OfRMAtvG8Ey7SDQCdwQV5": [
+      "tableColumnEntities",
+      1740976163881,
+      -1,
+      {
+        "name": 1740976187203,
+        "dataType": 1740976195445
+      }
+    ],
+    "4ssg2l9KDwSW_quL9Nrvp": [
+      "tableColumnEntities",
+      1740976238633,
+      1740976258750,
+      {
+        "options(notNull)": 1740976238633,
+        "name": 1740976238633,
+        "dataType": 1740976238633,
+        "default": 1740976238633,
+        "comment": 1740976238633
+      }
+    ],
+    "XFAnsNucmEt2Ue6eNexS2": [
+      "relationshipEntities",
+      1740976238633,
+      1740976255573,
+      {}
+    ],
+    "BZGffxRirAKV56ftdW5--": [
+      "tableColumnEntities",
+      1740976249134,
+      1740976258196,
+      {
+        "options(notNull)": 1740976249134,
+        "name": 1740976249134,
+        "dataType": 1740976249134,
+        "default": 1740976249134,
+        "comment": 1740976249134
+      }
+    ],
+    "QJkY--_pZBobqO7PuZdYf": [
+      "relationshipEntities",
+      1740976249134,
+      1740976253718,
+      {}
+    ],
+    "JldqTN3yHm-WXk4IM-7G9": [
+      "tableColumnEntities",
+      1740976683468,
+      1740976713506,
+      {
+        "options(notNull)": 1740976683468,
+        "name": 1740976683468,
+        "dataType": 1740976683468,
+        "default": 1740976683468,
+        "comment": 1740976683468
+      }
+    ],
+    "QMvNfqNUd4kjpE0mjFcSw": [
+      "tableColumnEntities",
+      1740976683468,
+      1740976712682,
+      {
+        "options(notNull)": 1740976683468,
+        "name": 1740976683468,
+        "dataType": 1740976683468,
+        "default": 1740976683468,
+        "comment": 1740976683468
+      }
+    ],
+    "xSZq4hsJuPQqh5YqNrnCf": [
+      "tableColumnEntities",
+      1740976706841,
+      1740976709281,
+      {
+        "options(notNull)": 1740976683468,
+        "name": 1740976683468,
+        "dataType": 1740976683468,
+        "default": 1740976683468,
+        "comment": 1740976683468
+      }
+    ],
+    "A17C4ZugxGflaJ5bUHt1o": [
+      "relationshipEntities",
+      1740976683468,
+      1740976693074,
+      {}
+    ],
+    "8mivUTN4bTmrmqvydqOY2": [
+      "tableColumnEntities",
+      1740976742044,
+      -1,
+      {
+        "options(notNull)": 1740976742044,
+        "name": 1740976742044,
+        "dataType": 1740976742044,
+        "default": 1740976742044,
+        "comment": 1740976742044
+      }
+    ],
+    "A0D76ZIL7Gq3utvos5bwu": [
+      "relationshipEntities",
+      1740976742044,
+      -1,
+      {}
+    ],
+    "JtK9fsXFjQKtK-_wr-c8Y": [
+      "tableColumnEntities",
+      1740976762815,
+      -1,
+      {
+        "options(notNull)": 1740976762815,
+        "name": 1740976762815,
+        "dataType": 1740976762815,
+        "default": 1740976762815,
+        "comment": 1740976762815
+      }
+    ],
+    "H5flltdk5XHv-yrwWTibZ": [
+      "relationshipEntities",
+      1740976762815,
+      -1,
+      {}
+    ]
+  }
+}
